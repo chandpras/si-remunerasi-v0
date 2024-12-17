@@ -1,5 +1,22 @@
+import WidgetCards from "@/components/WidgetCards";
+
 const AdminPage = () => {
-  return <div className="">AdminPage</div>;
+  return (
+    <div className="p-4 flex gap-4 flex-col md:flex-row">
+      {/* LEFT SIDE */}
+      <div className="w-full lg:w-2/3">
+        {/* USER CARDS */}
+        <div className="flex gap-4 justify-between">
+          <WidgetCards type="widget1" />
+          <WidgetCards type="widget2" />
+          <WidgetCards type="widget3" />
+          <WidgetCards type="widget4" />
+        </div>
+      </div>
+      {/* RIGHT SIDE */}
+      <div className="w-full lg:w-1/3">r</div>
+    </div>
+  );
 };
 
 export default AdminPage;
