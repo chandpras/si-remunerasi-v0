@@ -7,7 +7,8 @@ const AdminPage = () => {
     <div className="p-4 flex gap-4 flex-col md:flex-row">
       {/* LEFT SIDE */}
       <div className="w-full">
-        {/* USER CARDS */}
+        <h1 className="text-xl font-bold py-5 px-4">DASBOR ADMIN</h1>
+        {/* WIDGET CARDS */}
         <div className="flex gap-4 justify-between">
           <WidgetCards type="widget1" />
           <WidgetCards type="widget2" />
